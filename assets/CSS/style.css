@@ -1,0 +1,65 @@
+body {
+    background-image: url("../Images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Questrial', sans-serif;
+}
+
+.jumbotron {
+    background-color: #6ec153 !important;
+    color: #c962db !important;
+    opacity: .75;
+    border: 3px solid #c962db;
+}
+
+.panel-heading {
+    background: #6ec153 !important;
+}
+
+.panel {
+    background-color: #6ec153 !important;
+    color: white!important;
+    opacity: .90;
+}
+
+p {
+    font-size: 16px !important;
+    line-height: 15px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive !important;
+}
+
+h3 {
+    color: #c962db;
+    margin: 0px 0px 0px 0px !important;
+}
+
+span {
+    color: white;
+    margin: 0px 0px 0px 0px !important;
+}
+
+img {
+    opacity: .75;
+    position: relative;
+}
+
+#wins,
+#losses,
+#clicks {
+    font-size: 24px;
+}
+
+#score {
+    font-size: 24px;
+}
+
+#number {
+    font-size: 24px;
+}
+
+#display {
+    visibility: hidden;
+}

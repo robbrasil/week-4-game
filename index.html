@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Crystal Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Questrial" rel="stylesheet">
+    <link href="assets/CSS/reset.css" rel="stylesheet" type="text/css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="assets/javascript/game.js"></script>
+    <link href="assets/CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid text-center">
+            <h1>The Crystal Game</h1>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <p>You will be given a number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal will be hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the value of each crystal.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        <h3>Number to match</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <div id="number">
+                            0
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        <h3>Your number</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <div id="score">
+                            0
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="winsLosses">
+                            <div id="wins">Wins: 0</div>
+                            <div id="losses">Losses: 0</div>
+                            <div id="clicks">Clicks: 0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-body text-center" id="button">
+                        <h3 id="reset">Reset game</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3" id="display">
+                <div class="panel panel-default">
+                    <div class="panel-body text-center">
+                        <h1 id="wonLost"> </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-body text-center">
+                        <span><img id="crystalOne" src="assets/Images/crystal1.png" value="0"></span>
+                        <span><img id="crystalTwo" src="assets/Images/crystal2.png" value="0"></span>
+                        <span><img id="crystalThree" src="assets/Images/crystal3.png" value="0"></span>
+                        <span><img id="crystalFour" src="assets/Images/crystal4.png" value="0"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
